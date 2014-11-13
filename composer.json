@@ -1,0 +1,39 @@
+{
+    "name": "howlowck/meetup-oauth2-provider",
+    "description": "Meetup OAuth2 Client Provider for Leagues OAuth2-Client",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Hao Luo",
+            "email": "howlowck@gmail.com"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication",
+        "idp",
+        "identity",
+        "sso",
+        "single sign on",
+        "meetup"
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "league/oauth2-client": "~0.4.0",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Howlowck\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Howlowck\\OAuth2\\Client\\Test\\": "tests/src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
