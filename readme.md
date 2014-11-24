@@ -1,4 +1,4 @@
-# Meetup OAuth2 Client Provider [![Build Status](https://travis-ci.org/howlowck/meetup-oauth2-provider.svg?branch=master)](https://travis-ci.org/howlowck/meetup-oauth2-provider)
+# Meetup OAuth2 Client Provider [![Build Status](https://travis-ci.org/howlowck/meetup-oauth2-provider.svg?branch=master)](https://travis-ci.org/howlowck/meetup-oauth2-provider) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/howlowck/meetup-oauth2-provider/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/howlowck/meetup-oauth2-provider/?branch=master)
 
 This package is made for the [League's OAuth2 Client](https://github.com/thephpleague/oauth2-client).
 
