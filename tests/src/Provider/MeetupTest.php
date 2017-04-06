@@ -1,19 +1,19 @@
-<?php namespace Howlowck\OAuth2\Client\Test\Provider;
+<?php namespace Slyvent\OAuth2\Client\Test\Provider;
 
-use Howlowck\OAuth2\Client\Provider\Meetup;
+use Slyvent\OAuth2\Client\Provider\Meetup;
 use \Mockery as m;
 
 class MeetupTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @var \Howlowck\OAuth2\Client\Provider\Meetup|null
+     * @var \Slyvent\OAuth2\Client\Provider\Meetup|null
      */
     protected $provider;
 
     protected function setUp()
     {
-        $this->provider = new \Howlowck\OAuth2\Client\Provider\Meetup([
+        $this->provider = new Meetup([
             'clientId'     => 'mock',
             'clientSecret' => 'mock_secret',
             'redirectUri'  => 'none',

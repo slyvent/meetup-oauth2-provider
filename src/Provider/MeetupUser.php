@@ -1,6 +1,6 @@
 <?php
 
-namespace Howlowck\OAuth2\Client\Provider;
+namespace Slyvent\OAuth2\Client\Provider;
 
 use League\OAuth2\Client\Provider\ResourceOwnerInterface;
 
