@@ -4,12 +4,12 @@ This package is made for the [League's OAuth2 Client](https://github.com/thephpl
 
 ## Install
 From command line:
-`composer require howlowck/meetup-oauth2-provider`
+`composer require slyvent/meetup-oauth2-provider`
 
 ## To Instantiate a Provider  
 
 ```php
-$provider =  new \Howlowck\OAuth2\Client\Provider\Meetup(array(
+$provider =  new \Slyvent\OAuth2\Client\Provider\Meetup(array(
     'clientId'  =>  'YOUR_CONSUMER_KEY',
     'clientSecret'  =>  'YOUR_CONSUMER_SECRET',
     'redirectUri' => 'your-redirect-url',
