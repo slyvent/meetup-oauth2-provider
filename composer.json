@@ -1,11 +1,15 @@
 {
-    "name": "howlowck/meetup-oauth2-provider",
+    "name": "slyvent/meetup-oauth2-provider",
     "description": "Meetup OAuth2 Client Provider for Leagues OAuth2-Client",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "authors": [
         {
             "name": "Hao Luo",
             "email": "howlowck@gmail.com"
+        },
+        {
+            "name": "Karl Marques",
+            "email": "kmarques@slyvent.com"
         }
     ],
     "keywords": [
@@ -29,12 +33,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Howlowck\\OAuth2\\Client\\": "src/"
+            "Slyvent\\OAuth2\\Client\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Howlowck\\OAuth2\\Client\\Test\\": "tests/src/"
+            "Slyvent\\OAuth2\\Client\\Test\\": "tests/src/"
         }
     },
     "minimum-stability": "stable"
